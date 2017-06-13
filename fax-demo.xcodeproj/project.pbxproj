@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEB2768F1EEF4AC500DEBC33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2768E1EEF4AC500DEBC33 /* AppDelegate.swift */; };
+		DEB276911EEF4AC500DEBC33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB276901EEF4AC500DEBC33 /* ViewController.swift */; };
+		DEB276941EEF4AC500DEBC33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB276921EEF4AC500DEBC33 /* Main.storyboard */; };
+		DEB276961EEF4AC500DEBC33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB276951EEF4AC500DEBC33 /* Assets.xcassets */; };
+		DEB276991EEF4AC500DEBC33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB276971EEF4AC500DEBC33 /* LaunchScreen.storyboard */; };
+		DEB276A41EEF4AC600DEBC33 /* fax_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB276A31EEF4AC600DEBC33 /* fax_demoTests.swift */; };
+		DEB276B11EEF4B5000DEBC33 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB276B01EEF4B5000DEBC33 /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEB276A01EEF4AC600DEBC33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB276831EEF4AC500DEBC33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB2768A1EEF4AC500DEBC33;
+			remoteInfo = "fax-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEB2768B1EEF4AC500DEBC33 /* fax-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fax-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB2768E1EEF4AC500DEBC33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEB276901EEF4AC500DEBC33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEB276931EEF4AC500DEBC33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEB276951EEF4AC500DEBC33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEB276981EEF4AC500DEBC33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEB2769A1EEF4AC500DEBC33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB2769F1EEF4AC500DEBC33 /* fax-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fax-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB276A31EEF4AC600DEBC33 /* fax_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fax_demoTests.swift; sourceTree = "<group>"; };
+		DEB276A51EEF4AC600DEBC33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB276B01EEF4B5000DEBC33 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEB276881EEF4AC500DEBC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB2769C1EEF4AC500DEBC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEB276821EEF4AC500DEBC33 = {
+			isa = PBXGroup;
+			children = (
+				DEB2768D1EEF4AC500DEBC33 /* fax-demo */,
+				DEB276A21EEF4AC600DEBC33 /* fax-demoTests */,
+				DEB2768C1EEF4AC500DEBC33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB2768C1EEF4AC500DEBC33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEB2768B1EEF4AC500DEBC33 /* fax-demo.app */,
+				DEB2769F1EEF4AC500DEBC33 /* fax-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEB2768D1EEF4AC500DEBC33 /* fax-demo */ = {
+			isa = PBXGroup;
+			children = (
+				DEB2768E1EEF4AC500DEBC33 /* AppDelegate.swift */,
+				DEB276901EEF4AC500DEBC33 /* ViewController.swift */,
+				DEB276921EEF4AC500DEBC33 /* Main.storyboard */,
+				DEB276B01EEF4B5000DEBC33 /* Utilities.swift */,
+				DEB276951EEF4AC500DEBC33 /* Assets.xcassets */,
+				DEB276971EEF4AC500DEBC33 /* LaunchScreen.storyboard */,
+				DEB2769A1EEF4AC500DEBC33 /* Info.plist */,
+			);
+			path = "fax-demo";
+			sourceTree = "<group>";
+		};
+		DEB276A21EEF4AC600DEBC33 /* fax-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEB276A31EEF4AC600DEBC33 /* fax_demoTests.swift */,
+				DEB276A51EEF4AC600DEBC33 /* Info.plist */,
+			);
+			path = "fax-demoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEB2768A1EEF4AC500DEBC33 /* fax-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB276A81EEF4AC600DEBC33 /* Build configuration list for PBXNativeTarget "fax-demo" */;
+			buildPhases = (
+				DEB276871EEF4AC500DEBC33 /* Sources */,
+				DEB276881EEF4AC500DEBC33 /* Frameworks */,
+				DEB276891EEF4AC500DEBC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fax-demo";
+			productName = "fax-demo";
+			productReference = DEB2768B1EEF4AC500DEBC33 /* fax-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEB2769E1EEF4AC500DEBC33 /* fax-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB276AB1EEF4AC600DEBC33 /* Build configuration list for PBXNativeTarget "fax-demoTests" */;
+			buildPhases = (
+				DEB2769B1EEF4AC500DEBC33 /* Sources */,
+				DEB2769C1EEF4AC500DEBC33 /* Frameworks */,
+				DEB2769D1EEF4AC500DEBC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEB276A11EEF4AC600DEBC33 /* PBXTargetDependency */,
+			);
+			name = "fax-demoTests";
+			productName = "fax-demoTests";
+			productReference = DEB2769F1EEF4AC500DEBC33 /* fax-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEB276831EEF4AC500DEBC33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = genesys;
+				TargetAttributes = {
+					DEB2768A1EEF4AC500DEBC33 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					DEB2769E1EEF4AC500DEBC33 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = DEB2768A1EEF4AC500DEBC33;
+					};
+				};
+			};
+			buildConfigurationList = DEB276861EEF4AC500DEBC33 /* Build configuration list for PBXProject "fax-demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEB276821EEF4AC500DEBC33;
+			productRefGroup = DEB2768C1EEF4AC500DEBC33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEB2768A1EEF4AC500DEBC33 /* fax-demo */,
+				DEB2769E1EEF4AC500DEBC33 /* fax-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEB276891EEF4AC500DEBC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB276991EEF4AC500DEBC33 /* LaunchScreen.storyboard in Resources */,
+				DEB276961EEF4AC500DEBC33 /* Assets.xcassets in Resources */,
+				DEB276941EEF4AC500DEBC33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB2769D1EEF4AC500DEBC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEB276871EEF4AC500DEBC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB276B11EEF4B5000DEBC33 /* Utilities.swift in Sources */,
+				DEB276911EEF4AC500DEBC33 /* ViewController.swift in Sources */,
+				DEB2768F1EEF4AC500DEBC33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB2769B1EEF4AC500DEBC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB276A41EEF4AC600DEBC33 /* fax_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEB276A11EEF4AC600DEBC33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEB2768A1EEF4AC500DEBC33 /* fax-demo */;
+			targetProxy = DEB276A01EEF4AC600DEBC33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEB276921EEF4AC500DEBC33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB276931EEF4AC500DEBC33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEB276971EEF4AC500DEBC33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB276981EEF4AC500DEBC33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEB276A61EEF4AC600DEBC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEB276A71EEF4AC600DEBC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEB276A91EEF4AC600DEBC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P3MPJ3YJSK;
+				INFOPLIST_FILE = "fax-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesys.fax-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEB276AA1EEF4AC600DEBC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P3MPJ3YJSK;
+				INFOPLIST_FILE = "fax-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesys.fax-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEB276AC1EEF4AC600DEBC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P3MPJ3YJSK;
+				INFOPLIST_FILE = "fax-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesys.fax-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fax-demo.app/fax-demo";
+			};
+			name = Debug;
+		};
+		DEB276AD1EEF4AC600DEBC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P3MPJ3YJSK;
+				INFOPLIST_FILE = "fax-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesys.fax-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fax-demo.app/fax-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEB276861EEF4AC500DEBC33 /* Build configuration list for PBXProject "fax-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB276A61EEF4AC600DEBC33 /* Debug */,
+				DEB276A71EEF4AC600DEBC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB276A81EEF4AC600DEBC33 /* Build configuration list for PBXNativeTarget "fax-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB276A91EEF4AC600DEBC33 /* Debug */,
+				DEB276AA1EEF4AC600DEBC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEB276AB1EEF4AC600DEBC33 /* Build configuration list for PBXNativeTarget "fax-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB276AC1EEF4AC600DEBC33 /* Debug */,
+				DEB276AD1EEF4AC600DEBC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEB276831EEF4AC500DEBC33 /* Project object */;
+}
