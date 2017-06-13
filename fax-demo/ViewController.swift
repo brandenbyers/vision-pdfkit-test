@@ -23,7 +23,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         present(picker, animated: true)
     }
     @IBAction func chooseImage(_ sender: Any) {
-        // The photo library is the default source, editing not allowed
         let picker = UIImagePickerController()
         picker.delegate = self
         picker.sourceType = .savedPhotosAlbum
@@ -104,7 +103,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 "inputBottomRight": CIVector(cgPoint: bottomRight)
                 ])
         
-        // Show the pre-processed image
+        // Show the pre-processed image and generate PDF
         DispatchQueue.main.async {
             self.correctedImageView.image = UIImage(ciImage: correctedImage)
             let data = self.generatePDF(view: self.correctedImageView)
